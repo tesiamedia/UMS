@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /core
+Disallow: /load
+Disallow: /js
+Disallow: /manager
+Disallow: /themes
+Disallow: /plugins
+Disallow: /modules
+Disallow: /log
+Disallow: /files
+Disallow: /pages
