@@ -1,0 +1,7 @@
+DirectoryIndex main.php
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^action/([a-zA-Z_-]+)$ main.php?page=$1&action=$1 [L]
+RewriteRule ^([a-zA-Z_-]+)$ main.php?page=$1 [L]
